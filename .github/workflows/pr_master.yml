@@ -1,0 +1,35 @@
+name: PR Checks for Master Branch
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.4'  # Specify your Python version
+
+    - name: Check formatting with isort and black
+      run: |
+        pip install isort black
+        isort --check .
+        black --check .
+
+    - name: Lint with pylint
+      run: |
+        pip install pylint
+        pylint --rcfile=.pylintrc $(find . -name "*.py" -type f)
+
+    - name: Check .editorconfig with EditorConfig Checker
+      run: |
+        pip install editorconfig-checker
+        editorconfig-checker
