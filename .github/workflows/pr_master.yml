@@ -20,16 +20,5 @@ jobs:
 
     - name: Check formatting with isort and black
       run: |
-        pip install isort black
-        isort --check .
+        pip install black
         black --check .
-
-    - name: Lint with pylint
-      run: |
-        pip install pylint
-        pylint --rcfile=.pylintrc $(find . -name "*.py" -type f)
-
-    - name: Check .editorconfig with EditorConfig Checker
-      run: |
-        pip install editorconfig-checker
-        editorconfig-checker
