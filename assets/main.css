@@ -5,8 +5,8 @@
   border: 1px solid red;
 }
 
-#figure-input-container {
-  display: flex;
+#graph-input-container {
+  border: 1px solid red;
 }
 
 #inpt-val-msg-wrapper {
