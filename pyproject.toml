@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "Aquatic-Weeds-Programme"
-version = "0.0.0"
+version = "1.0.0"
 description = ""
-authors = ["Neill Engelbrecht <engelbrecht.neill@gmail.com>"]
+authors = [
+    "Neill Engelbrecht <engelbrecht.neill@gmail.com>",
+    "Nathan Evans <jnaevans3@gmail.com>",
+    "Njabulo Marrengane <njabulomarrengane2@gmail.com>",
+    "Nkosinathi Owen <nmabena.nm22@gmail.com>",
+    "Phumlani Ntuli <Ntuli805@gmail.com>"
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,6 +16,7 @@ python = "3.11.7"
 dash = "^2.17.1"
 pandas = "^2.2.2"
 plotly = "^5.22.0"
+dash-bootstrap-components = "^1.6.0"
 
 [build-system]
 requires = ["poetry-core"]
