@@ -1,8 +1,14 @@
 [tool.poetry]
 name = "Aquatic-Weeds-Programme"
-version = "0.0.0"
+version = "1.0.0"
 description = ""
-authors = ["Neill Engelbrecht <engelbrecht.neill@gmail.com>"]
+authors = [
+    "Neill Engelbrecht <engelbrecht.neill@gmail.com>",
+    "Nathan Evans <jnaevans3@gmail.com>",
+    "Njabulo Marrengane <njabulomarrengane2@gmail.com>",
+    "Nkosinathi Owen <nmabena.nm22@gmail.com>",
+    "Phumlani Ntuli <Ntuli805@gmail.com>"
+]
 readme = "README.md"
 
 [tool.poetry.dependencies]

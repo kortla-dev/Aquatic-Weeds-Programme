@@ -1,0 +1,2 @@
+temperature_2m_max,temperature_2m_min,temperature_2m_mean,precipitation_sum,rain_sum,wind_speed_10m_max,wind_gusts_10m_max,wind_direction_10m_dominant,shortwave_radiation_sum,surface_pressure_min,surface_pressure_max,relative_humidity_2m_min,relative_humidity_2m_max
+23.7,15.1,18.8,1.2,1.2,12.1,28.4,73,19.16,891.1,895.2,59,94

@@ -1,22 +1,22 @@
 #core-container {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
-  border: 1px solid red;
+  /* background-color: #fff; */
+  /* border: 1px solid red; */
 }
 
 #graph-input-container {
   border: 1px solid red;
 }
 
-#inpt-val-msg-wrapper {
-  border: 1px solid red;
-}
-
-#graph-content {
-  border: 1px solid red;
-}
-
-#user-input-model {
-  border: 1px solid red;
-}
+/* #inpt-val-msg-wrapper { */
+/*   border: 1px solid red; */
+/* } */
+/**/
+/* #graph-content { */
+/*   border: 1px solid red; */
+/* } */
+/**/
+/* #user-input-model { */
+/*   border: 1px solid red; */
+/* } */
